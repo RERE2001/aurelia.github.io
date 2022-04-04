@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(images/walpeper.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+}
+
+.Logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Active{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+
+.text-cotainer{
+    font-family: sans-serif;
+    color: white;
+    float: right;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'myriad pro regular' sans-serif;
+    text-align: center;
+    width: 100px;
+    margin-right: 100vh;
+    top: 50%;
+}
+
+img{
+    position: relative;
+    top: 48%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 41%;
+}
